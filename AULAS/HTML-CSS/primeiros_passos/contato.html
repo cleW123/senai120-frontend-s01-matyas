@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Bem-vindo(a) ao Steam</title>
+</head>
+<body>
+
+    <style>
+ 
+    body{
+    background-color: rgb(219, 215, 215);
+    color: white;
+    }
+
+               header{
+               height: 120px;
+               width: auto;
+               margin-top: -8px;
+               
+           }
+ 
+       nav{
+       display: flex;
+       justify-content: center;
+       margin-top: -75px;
+    
+       }
+       
+       
+       nav a{
+       color: rgb(230, 225, 225);
+       text-decoration: none;
+       }
+       
+       nav ul li{
+       text-transform: uppercase;
+       display: inline;
+       padding: 10px;
+       }
+       
+       
+       
+       nav a:hover{
+       transition: 0.7s;
+       padding: 5px;
+        
+       }
+       
+
+   
+
+       .conteudoprincipal{
+       margin-left: 500px;
+       }
+
+       </style>
+       
+
+<header style="background-color: #0b74d6;"  >
+     <a href="home.html"><img src="img/logo.png" alt="logo-steam" width="100px" ></a>
+    <nav>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="produto.html" >Produtos</a></li>
+        <li><a href="contato.html" >Contato</a></li>
+        <li><a href="#" >Sobre</a></li>
+        <li><a href="#" >Suporte</a></li>
+
+    </ul>
+    </nav>
+</header>
+
+<main class="conteudoprincipal"><!--conteudo-principl-->
+   <form>
+            <div class="containerform" id="campoNome">
+                <label for="nome">nome</label> <!--for-name-id-sempre com o mesmo nome-->
+                <input type="text" placeholder="nome" name="nome" id="nome" required >
+            </div>
+            <div id="sobreNome">
+                <label for="Nome">sobrenome</label>
+                <input type="text" placeholder="sobrenome" name="Nome" id="Nome" required>
+            </div>
+        <div class="containerform" id="campodataNas">
+            <label for="dataNas">data de nascimento</label>
+            <input type="date" placeholder="data de nascimento" name="dataNas" id="dataNas">
+        </div>
+
+        <div class="containerform"  id="cpf" required>
+            <label for="cpf">cpf</label>
+            <input type="number" maxlength="5"  placeholder="123-456-789-00" name="cpf" id="cpf">
+        </div>
+
+        <div class="containerform" id="campoTelefone">
+            <label for="tell">Tell</label>
+            <input type="number" placeholder="xxx-xxx" name="tell" id="tell">
+        </div>
+
+        <div class="containerform" id="campoEmail">
+            <label for="Email">email</label>
+            <input type="email" placeholder="digite seu email" name="Email" id="Email" required >
+        </div>
+
+        <div class="containerform" id="campoSenha">
+            <label for="senha">senha</label>
+            <input type="password" placeholder="senha" id="senha" required >
+        </div>
+
+        <div>
+            <button type="submit" class="button" id="button-enviar">enviar</button>
+        </div> 
+
+            <div>
+                <label for="">desenha receber email?   </label>
+                <input type="checkbox" checked name="" id="">
+                <input type="checkbox" name="" id="">
+                <input type="file">
+                <input type="radio" name="radios">
+                <input type="radio" name="radios">
+                <input type="range">
+            </div>
+
+        </table>
+
+        <div class="selector">
+        <select name="selecionar" id="" style="background-color: rgb(197, 194, 194);">
+    
+        <option value="0" selected hidden >selecione</option>
+        <option value="skyline">skyline</option>
+        <option value="fusca">fusca</option>
+        <option value="ferrari">ferrari</option>
+        <option value="lancer 2008">lancer 2008</option>
+        <option value="uno com escada">uno com escada</option>
+        <option value="golf gti">golf gti</option>
+        <option value="Opala">Opala</option>
+        <option value="gol quadrado">gol quadrado</option>
+        <option value="santana">santana</option>
+        <option value="GTR">GTR</option>
+        </select>
+    </div>
+
+    </form>
+  
+    <label for="comentarios">comentarios</label>
+    <textarea required  style="max-width: 200px; min-width: 150px; min-height: 150px; max-height: 200px; " placeholder="digite..." maxlength="9" name="area de texto" id="" cols="50" rows="20"></textarea>
+  
+
+<table border="1">
+
+  <thead><!--cabecalho-da-tabela-->
+        <tr><!--linha-do-cabecalho--> 
+            <th>nome</th>
+            <th>idade</th>
+            <th>cidade</th>
+        </tr>
+  </thead><!--end-cabecalho-tabela-->
+
+        
+    <tbody><!--corpo-da-tabela-->
+        <tr>
+            <td>kauan</td>
+            <td>22</td>
+            <td>sbc</td>
+        </tr>
+
+        <tr>
+            <td>murilo</td>
+            <td>10</td>
+            <td>santo andre</td>
+        </tr>
+
+        <tr>
+            <td>andre</td>
+            <td>17</td>
+            <td>sao bernardo dos campos</td>
+        </tr>
+
+    </tbody><!--end-corpo-tabela-->
+
+    <tfoot><!--rodape da tabela-->
+        <tr>
+            <td colspan="3">aqui estao os dados</td>
+        </tr>
+    </tfoot>
+
+</main>
+
+
+</body>
+</html>

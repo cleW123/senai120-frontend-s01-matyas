@@ -1,0 +1,92 @@
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+
+.box_01 {
+    align-items: center;
+    background-color: rgb(223, 136, 22);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.box_01:hover {
+    transform: rotateZ(150deg);
+    transform: scale(1);
+    background-color: blueviolet;
+    transition: 1s;
+    box-shadow: 1px 1px 4px 5px;
+    border-radius: 70px 30px 70px 30px;
+}
+
+.box_02 {
+    color-scheme: dark;
+    border-radius: 150px;
+    margin: 50px;
+    align-items: center;
+    background-color: rgb(219, 130, 41);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.box_02:active {
+    clip-path: circle(90%);
+    background-color: aqua;
+    transition: 2s;
+    transform: rotateX(500deg);
+    transform: rotateY(180deg);
+    transition-duration: 5s;
+}
+
+.box_03 {
+    margin: 50px;
+    align-items: center;
+    background-color: rgb(112, 110, 108);
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.box_04 {
+    margin: 50px;
+    align-items: center;
+    background-color: rgb(145, 144, 144);
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.7em;
+}
+
+.box_04 li:last-child {
+    color: rgb(104, 10, 228);
+}
+
+.box_04 li:first-child {
+    color: rgb(230, 15, 158);
+}
+
+
+.box_04 li:nth-child(3) {
+    color: aqua;
+}
+
+input {
+    border: none;
+    outline: 0;
+    border-style: none;
+}
+
+input:focus {
+    background-color: rgb(17, 160, 160);
+    border: none;
+}

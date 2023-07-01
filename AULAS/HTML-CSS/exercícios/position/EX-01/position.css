@@ -1,0 +1,23 @@
+.box-1{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    position: static;
+}
+
+.box-2{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(13, 196, 28);
+    position: static;
+}
+
+.box-3{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(192, 19, 19);
+    position: static;
+}

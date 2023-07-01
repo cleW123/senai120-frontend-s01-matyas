@@ -1,0 +1,49 @@
+body{
+    background-color: #555555;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+input {
+    height: 30px;
+    text-decoration: none;
+    outline: none;
+    margin: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+select {
+    appearance: none;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+}
+
+.box_button {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.box_button button {
+    border: solid 1px #000000;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.result{
+    display: flex;
+    justify-content: center;
+}

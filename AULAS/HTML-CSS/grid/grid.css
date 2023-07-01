@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #6666;
+}
+
+html,
+body {
+    background-color: #00ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    background-color: #ffff00;
+    height: 500px;
+    width: 1000px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.box1 {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+
+}
+
+
+.container2 {
+    background-color: #ed2b09;
+    height: 500px;
+    width: 1000px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.box2 {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(12, 240, 50);
+    grid-column: 1;
+    grid-row: 2;
+}
+
+
+.container3 {
+    background-color: #e0dcdb;
+    height: 650px;
+    width: 1000px;
+    margin: 10px;
+    display: grid;
+    grid-template-areas:
+    "a caixa2 caixa3"
+    "caixa4 caixa1 caixa6"
+    "caixa7 caixa8 caixa9"
+
+    ;
+    gap: 10px;
+    padding: 15px;
+}
+
+
+.b1 {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    grid-area: caixa1;
+}
+
+.b2 {
+    background-color: rgb(15, 14, 16);
+    width: 200px;
+    height: 200px;
+    grid-area: caixa2;
+}
+
+.b3 {
+    background-color: rgb(38, 240, 12);
+    width: 200px;
+    height: 200px;
+    grid-area: caixa3;
+}
+
+.b4 {
+    background-color: rgb(230, 7, 219);
+    width: 200px;
+    height: 200px;
+    grid-area: caixa4;
+}
+
+.b5 {
+
+    background-color: rgb(238, 219, 16);
+    width: 200px;
+    height: 200px;
+    grid-area: caixa5;
+    display: none;
+}
+
+.b6 {
+    background-color: rgb(236, 12, 12);
+    width: 200px;
+    height: 200px;
+    grid-area: caixa6;
+}
+
+.b7 {
+    grid-area: caixa7;
+    background-color: rgb(237, 230, 14);
+    width: 200px;
+    height: 200px;
+
+}
+
+.b8 {
+    background-color: rgb(145, 144, 146);
+    width: 200px;
+    height: 200px;
+    grid-area: caixa8;
+}
+
+.b9 {
+    grid-area: caixa9;
+    background-color: rgb(53, 15, 245);
+    width: 200px;
+    height: 200px;
+
+}

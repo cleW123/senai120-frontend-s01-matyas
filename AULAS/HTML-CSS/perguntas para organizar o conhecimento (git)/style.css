@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(90deg, #800080, rgb(255, 255, 255));
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+
+#myTextArea {
+    width: 850px;
+    /* Defina a largura desejada */
+    height: 700px;
+    /* Defina a altura desejada */
+    margin: 0 auto;
+    /* Centraliza horizontalmente */
+    display: block;
+    /* Garante que o elemento se comporte como um bloco */
+    text-align: left;
+    /* Alinha o texto à esquerda */
+    resize: none;
+    margin-top: 30px;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+textarea {
+    font-size: 13px;
+    border: none;
+    font-weight: bold;
+    color: #000000;
+}
+
+button {
+    margin-left: 900px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul li {
+    font-size: 20px;
+    padding: 15px;
+    margin: 50px;
+}

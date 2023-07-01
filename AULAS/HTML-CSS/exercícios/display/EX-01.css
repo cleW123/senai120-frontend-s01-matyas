@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(112, 113, 114);
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 150px;
+  
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+a:hover{
+    transition: all 1s;
+    background-color: rgb(228, 23, 23);
+}

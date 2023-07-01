@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    background: url("bannerFundo.png") no-repeat;
+    background-size: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+h1::first-letter {
+    font-size: 2em;
+    color: #4fb7e7;
+}
+
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+p::selection {
+    color: #8a2be2;
+}
+
+input::placeholder {
+    font-style: italic;
+    color: aqua;
+    text-align: center;
+}
+
+input{
+    height: 20px;
+    border-radius: 10px;
+    display:block;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #569be9;
+    width: 600px;
+    text-align: center;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.content{
+    display: flex;
+    align-items: center;
+    height: 920px;
+}
+
+button{
+    margin-top: 50px;
+    text-align: center;
+    width: 300px;
+    height: 35px;
+    border-radius: 15px;
+    outline: none;
+    transition: 1s;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #000000;
+    color: #fff;
+}

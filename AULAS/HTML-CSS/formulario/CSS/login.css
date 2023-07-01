@@ -1,0 +1,62 @@
+body,html{
+width: 100%;
+height: 100%;
+background-color: #706c6c;
+
+}
+
+.cabecalho{
+    height: 80px;
+    width: 100%;
+    background-color: #f0f8ff;
+}
+
+
+main{
+   margin: 250px 700px ;
+}
+
+.container{
+    width: 390px;
+    height: 300px;
+    background-color: rgb(54, 130, 197);
+    border-radius: 15px;
+    display: block;
+    margin-left: 25px;
+}
+label{
+    display: block;
+    padding: 10px;
+    margin-left: 100px;
+}
+
+label{
+    font-size: 19px;
+}
+
+
+.button button{
+   
+    margin: 15px 150px;
+    
+}
+
+.register{
+   
+    margin: -35px 200px;
+  
+}
+
+input{
+    display: block;
+    font-size: 14px;
+    margin-left: 100px;
+    border: none;
+}
+
+input:focus{
+    border: solid 3px rgb(73, 104, 189);;
+
+}
+
+

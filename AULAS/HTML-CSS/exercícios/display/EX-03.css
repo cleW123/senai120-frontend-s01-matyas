@@ -1,0 +1,30 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    border-radius: 25px;
+    background-color: #817e7e;
+    width: 450px;
+    height: 400px;
+    margin-top: 200px;
+}
+
+label{
+    color: white;
+    display: block;
+    margin: 50px 150px 20px;
+ 
+}
+
+input.register{
+margin-left: 150px;
+text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+    display: block;
+    margin: 25px 200px ;
+}
